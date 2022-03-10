@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*======================================================================================================
+============================================CODE START==================================================
+======================================================================================================*/
+
+
+body{
+    background-color: #eda2d6;
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.cc{
+	padding: 20px;
+}
+
+.container{
+	background-color: #EDD4A2;
+}
+
+/*======================================================================================================
+==============================================HEADER====================================================
+======================================================================================================*/
+
+.logo-plus-nav{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#contact-image{
+	max-width: 100%;
+	height: auto;
+	padding: 15px 0px 15px 0px;
+	overflow: hidden;
+}
+
+
+.topmenu{
+	width: 10%;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 15px;
+	font-size: 1.5em;
+	font-family: 'Manjari', sans-serif ;
+}
+
+.call-to-action{
+	padding: 15px;
+}
+
+.appointment{
+	border: solid 2.5px #77408E;
+	background-color: #77408E;
+	color: whitesmoke;
+	padding: 5px 25px 5px 25px;
+	border-radius: 20px;
+	font-size: 30px;
+	width: 100%;
+	font-weight: lighter;
+}
+
+.appointment:hover{
+	font-weight: lighter;
+	color: #77408E;
+	background: #EDD4A2;
+	border: solid 2.5px #77408E;
+	width: 100%;
+	font-size: 30px;
+}
+
+
+
+
+.slogan{
+	text-align: center;
+	font-family: 'Manjari', sans-serif ;
+    font-size: 1.5em;
+}
+
+hr{
+	margin: 20px;
+	color: #77408E;
+	border: solid 2px;
+}
+
+
+/*======================================================================================================
+==============================================COTENT====================================================
+======================================================================================================*/
+
+
+
+
+
+/*======================================================================================================
+===============================================FOOTER==================================================
+======================================================================================================*/
+#footer{
+	background-color: #77408E;
+	color: whitesmoke;
+	padding: 15px;
+}
+
+.footer-items{
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+	padding-top: 20px;
+}
+
+.footer-items p{
+	font-size: 1.2em;
+	font-family: 'Manjari', sans-serif;	
+}
+
+#instagram, #twitter{
+	max-width: 3.5%;
+}
+
+#facebook{
+	max-width: 1.75%;
+}
+
+.logos{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
