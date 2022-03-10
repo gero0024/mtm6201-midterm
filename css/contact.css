@@ -72,12 +72,13 @@ body{
 
 .logo-plus-nav{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
 }
 
-#contact-image{
+#mainbanner{
 	max-width: 100%;
 	height: auto;
 	padding: 15px 0px 15px 0px;
@@ -86,23 +87,34 @@ body{
 
 
 .topmenu{
-	width: 10%;
 	display: flex;
 	justify-content: space-evenly;
-	gap: 15px;
+    gap: 25px;
 	font-size: 1.5em;
+    font-weight: bold;
 	font-family: 'Manjari', sans-serif ;
 }
 
-.call-to-action{
-	padding: 15px;
+li:hover{
+    background-color: #77408E;
+    border-radius: 10px;
+    padding: 20px 20px 12.5px 20px;
+    color: whitesmoke;
 }
+
+li:active{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px 20px 12.5px 20px;
+    color: #77408E;
+}
+
 
 .appointment{
 	border: solid 2.5px #77408E;
 	background-color: #77408E;
 	color: whitesmoke;
-	padding: 5px 25px 5px 25px;
+	padding: 5px 5px 5px 5px;
 	border-radius: 20px;
 	font-size: 30px;
 	width: 100%;
@@ -126,13 +138,6 @@ body{
 	font-family: 'Manjari', sans-serif ;
     font-size: 1.5em;
 }
-
-hr{
-	margin: 20px;
-	color: #77408E;
-	border: solid 2px;
-}
-
 
 /*======================================================================================================
 ==============================================COTENT====================================================

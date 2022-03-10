@@ -144,20 +144,61 @@ li:active{
     font-size: 1.5em;
 }
 
-hr{
-	margin: 20px;
-	color: #77408E;
-	border: solid 2px;
-}
-
 
 /*======================================================================================================
 ==============================================COTENT====================================================
 ======================================================================================================*/
 
+#about-us{
+    font-size: 4.5em;
+    padding-top: 25px;
+}
+
+hr{
+	margin: 0px 20px 20px 20px;
+	color: #77408E;
+	border: solid 2px;
+}
 
 
+main h2{
+	font-size: 3em;
+	font-family: 'Manjari', sans-serif ;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-align: center;
+}
 
+
+main h3{
+	font-size: 3em;
+	font-family: 'Manjari thin', sans-serif ;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
+.cc{
+    max-width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+    row-gap: 50px;
+    column-gap: 25px;
+}
+
+
+.cc img{
+    width: 575px;
+    height: 550px;
+}
+
+.cc p{
+    font-family: 'Khula', sans-serif;
+	font-size: 1.5em;
+}
 
 /*======================================================================================================
 ===============================================FOOTER==================================================
@@ -194,3 +235,8 @@ hr{
 	justify-content: center;
 	gap: 25px;
 }
+
+/*======================================================================================================
+==============================================ANIMATIONS================================================
+======================================================================================================*/
+
