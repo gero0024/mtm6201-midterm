@@ -54,7 +54,7 @@ table {
 
 body{
     background-color: #eda2d6;
-	max-width: 75%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 
@@ -62,8 +62,13 @@ body{
 	padding: 20px;
 }
 
+.head{
+    background-color: #EDD4A2;
+    overflow: hidden;
+}
+
 .container{
-	background-color: #EDD4A2;
+	background-color: #eda2d6;
 }
 
 /*======================================================================================================
@@ -72,12 +77,12 @@ body{
 
 .logo-plus-nav{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
 
-#contact-image{
+#mainbanner{
 	max-width: 100%;
 	height: auto;
 	padding: 15px 0px 15px 0px;
@@ -88,6 +93,7 @@ body{
 .topmenu{
 	width: 10%;
 	display: flex;
+    order: -1;
 	justify-content: space-evenly;
 	gap: 15px;
 	font-size: 1.5em;
