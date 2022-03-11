@@ -77,6 +77,10 @@ body{
 	height: 550px;	
 }
 
+a{
+	text-decoration: none;
+}
+
 
 /*======================================================================================================
 ==============================================HEADER====================================================
@@ -176,8 +180,8 @@ main h2{
 	font-weight: bold;
 	padding-top: 35px;
 	padding-bottom: 10px;
-	max-width: 65%;
-	order: -1;
+	max-width: 50%;
+	text-align: center;
 }
 
 .top{
@@ -207,9 +211,8 @@ main h2{
 
 .content{
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 }
-
 
 
 
