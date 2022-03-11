@@ -50,3 +50,204 @@ table {
 /*======================================================================================================
 ============================================CODE START==================================================
 ======================================================================================================*/
+
+
+body{
+    background-color: #eda2d6;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.cc{
+	padding: 20px;
+}
+
+.head{
+    background-color: #EDD4A2;
+    overflow: hidden;
+}
+
+.main-content{
+	background-color: #eda2d6;
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+#child{
+	height: 550px;	
+}
+
+
+/*======================================================================================================
+==============================================HEADER====================================================
+======================================================================================================*/
+
+.logo-plus-nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
+}
+
+#mainbanner{
+	max-width: 100%;
+	height: auto;
+	padding: 15px 0px 15px 0px;
+	overflow: hidden;
+}
+
+
+.topmenu{
+	display: flex;
+	justify-content: space-evenly;
+    gap: 25px;
+	font-size: 1.5em;
+    font-weight: bold;
+	font-family: 'Manjari', sans-serif ;
+}
+
+li{
+  
+    transition-duration: .5s;
+    transition-delay: 100ms;
+}
+
+li:hover{
+    background-color: #77408E;
+    border-radius: 10px;
+    padding: 20px 20px 12.5px 20px;
+    color: whitesmoke;
+}
+
+li:active{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px 20px 12.5px 20px;
+    color: #77408E;
+}
+
+
+.appointment{
+	border: solid 2.5px #77408E;
+	background-color: #77408E;
+	color: whitesmoke;
+	padding: 5px 5px 5px 5px;
+	border-radius: 20px;
+	font-size: 30px;
+	width: 100%;
+	font-weight: lighter;
+}
+
+.appointment{
+    transition-duration: .2s;
+    transition-delay: 100ms;
+}
+
+
+.appointment:hover{
+	font-weight: lighter;
+	color: #77408E;
+	background: #EDD4A2;
+	border: solid 2.5px #77408E;
+	width: 100%;
+	font-size: 30px;
+}
+
+
+
+
+.slogan{
+	text-align: center;
+	font-family: 'Manjari', sans-serif ;
+    font-size: 1.5em;
+}
+
+
+/*======================================================================================================
+==============================================COTENT====================================================
+======================================================================================================*/
+
+
+
+main h2{
+	font-size: 3em;
+	font-family: 'Manjari', sans-serif ;
+	font-weight: bold;
+	padding-top: 35px;
+	padding-bottom: 10px;
+	max-width: 65%;
+	order: -1;
+}
+
+.top{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	align-items: center;
+	text-align: center;
+	padding: 35px 0px 35px 110px;
+}
+
+.top img{
+	width: 75%;
+}
+
+.top p{
+	padding-top: 10px;
+	max-width: 75%;
+	font-family: 'Khula', sans-serif;
+
+}
+
+.logo{
+	max-width: 15%;
+}
+
+
+.content{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+
+
+
+
+
+/*======================================================================================================
+===============================================FOOTER==================================================
+======================================================================================================*/
+#footer{
+	background-color: #77408E;
+	color: whitesmoke;
+	padding: 15px;
+}
+
+.footer-items{
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+	padding-top: 20px;
+}
+
+.footer-items p{
+	font-size: 1.2em;
+	font-family: 'Manjari', sans-serif;	
+}
+
+#instagram, #twitter{
+	max-width: 3.5%;
+}
+
+#facebook{
+	max-width: 1.75%;
+}
+
+.socials{
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+

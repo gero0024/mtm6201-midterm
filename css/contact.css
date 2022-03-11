@@ -163,7 +163,7 @@ li:active{
 
 .contact-us{
 	font-size: 4.5em;
-	padding-top: 25px;	
+	padding-top: 35px;	
 }
 
 main h2{
@@ -365,7 +365,7 @@ table tr th{
 	max-width: 1.75%;
 }
 
-.logos{
+.socials{
 	padding: 15px;
 	display: flex;
 	justify-content: center;
