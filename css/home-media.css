@@ -206,15 +206,10 @@ li:active{
     .topmenu{
         margin-left: 65px;
     }
-
-    
-
-    
 }
 
 
 @media screen and (max-width: 800px){
-
     body{
         max-width: 100%;
     }
@@ -235,7 +230,9 @@ li:active{
     
     #facebook{
         max-width: 4%;
-    }
-    
-    
+    }   
 }
+
+}
+
+ 
