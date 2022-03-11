@@ -51,6 +51,7 @@ table {
 ============================================CODE START==================================================
 ======================================================================================================*/
 
+
 body{
     background-color: #eda2d6;
 	max-width: 100%;
@@ -58,8 +59,6 @@ body{
 }
 
 .cc{
-	max-width: 75%;
-	margin: 0 auto;
 	padding: 20px;
 }
 
@@ -68,8 +67,14 @@ body{
     overflow: hidden;
 }
 
-.container{
+.main-content{
 	background-color: #eda2d6;
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+#child{
+	height: 550px;	
 }
 
 a{
@@ -89,7 +94,7 @@ a{
     padding: 20px 20px 0px 20px;
 }
 
-#contact-image{
+#mainbanner{
 	max-width: 100%;
 	height: auto;
 	padding: 15px 0px 15px 0px;
@@ -139,9 +144,10 @@ li:active{
 }
 
 .appointment{
-	transition-duration: .2s;
+    transition-duration: .2s;
     transition-delay: 100ms;
 }
+
 
 .appointment:hover{
 	font-weight: lighter;
@@ -160,6 +166,7 @@ li:active{
 	font-family: 'Manjari', sans-serif ;
     font-size: 1.5em;
 }
+
 
 /*======================================================================================================
 ==============================================COTENT====================================================
@@ -376,8 +383,6 @@ table tr th{
 	justify-content: center;
 	gap: 25px;
 }
-
-
 
 
 

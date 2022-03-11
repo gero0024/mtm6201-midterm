@@ -27,9 +27,7 @@
 
 @media screen and (max-width: 1500px){
 
-    body{
-        color: crimson;
-    } 
+   
 
     .cc p{
         max-width: 100%;
@@ -46,10 +44,6 @@
 
 
 @media screen and (max-width: 1250px){
-
-    body{
-        color: aqua;
-    }
 
 /*======================================================================================================
 ==============================================HEADER====================================================
@@ -265,7 +259,6 @@ main h3{
 @media screen and (max-width: 800px){
 
     body{
-        color: aliceblue;
         max-width: 100%;
     }
 
