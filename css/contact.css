@@ -51,19 +51,25 @@ table {
 ============================================CODE START==================================================
 ======================================================================================================*/
 
-
 body{
     background-color: #eda2d6;
-	max-width: 75%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 
 .cc{
+	max-width: 75%;
+	margin: 0 auto;
 	padding: 20px;
 }
 
+.head{
+    background-color: #EDD4A2;
+    overflow: hidden;
+}
+
 .container{
-	background-color: #EDD4A2;
+	background-color: #eda2d6;
 }
 
 /*======================================================================================================
@@ -78,7 +84,7 @@ body{
     padding: 20px 20px 0px 20px;
 }
 
-#mainbanner{
+#contact-image{
 	max-width: 100%;
 	height: auto;
 	padding: 15px 0px 15px 0px;
@@ -93,6 +99,12 @@ body{
 	font-size: 1.5em;
     font-weight: bold;
 	font-family: 'Manjari', sans-serif ;
+}
+
+li{
+  
+    transition-duration: .5s;
+    transition-delay: 100ms;
 }
 
 li:hover{
@@ -121,6 +133,11 @@ li:active{
 	font-weight: lighter;
 }
 
+.appointment{
+	transition-duration: .2s;
+    transition-delay: 100ms;
+}
+
 .appointment:hover{
 	font-weight: lighter;
 	color: #77408E;
@@ -143,6 +160,12 @@ li:active{
 ==============================================COTENT====================================================
 ======================================================================================================*/
 
+
+.contact-us{
+	font-size: 4.5em;
+	padding-top: 25px;	
+}
+
 main h2{
 	font-size: 3em;
 	font-family: 'Manjari', sans-serif ;
@@ -152,12 +175,20 @@ main h2{
 }
 
 main h3{
-	font-size: 1.5em;
+	font-size: 3em;
+	font-family: 'Manjari', sans-serif ;
+	font-weight: lighter;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: 'Manjari', sans-serif ;
-
 }
+
+
+hr{
+	margin: 0px 20px 20px 20px;
+	color: #77408E;
+	border: solid 2px;
+}
+
 
 
 main p{
@@ -169,11 +200,6 @@ main p{
 	text-align: center;
 	padding-bottom: 15px;
 }
-
-
-
-
-
 
 
 
@@ -233,7 +259,7 @@ main p{
 #sendbutton:hover{
 	font-weight: lighter;
 	color: #77408E;
-	background: #EDD4A2;
+	background: #eda2d6;
 	border: solid 2.5px #77408E;
 	width: 100%;
 	font-size: 30px;
@@ -246,8 +272,19 @@ main p{
 input, textarea{
 	padding: 10px;
 	margin-bottom: 15px;
+	background: #77408E;
+	color: whitesmoke;
 }
 
+input::placeholder{
+	color: #EDD4A2;
+	font-size: 1.2em;
+}
+
+textarea::placeholder{
+	color: #EDD4A2;
+	font-size: 1.2em;
+}
 
 /*======================================================================================================
 ================================================TABLE===================================================
@@ -257,8 +294,7 @@ input, textarea{
 	padding-bottom: 10px;
 	text-align: center;
 	font-family: 'Manjari', sans-serif;
-	font-size: 1.5em;
-	font-weight: 900;
+	font-size: 3em;
 }
 
 .bottom{
@@ -292,7 +328,11 @@ table tr th{
 }
 
 .words{
+	flex-grow: 2;
 	text-align: center;
+	font-size: 1.2em;
+	font-family: 'Manjari', sans-serif;	
+	font-weight: lighter;
 }
 
 
